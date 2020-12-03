@@ -14,6 +14,7 @@ import java.util.*;
 class Codegen {
 
     // only read/write when generating code with synchronized protection
+	// Added comment to see git comaanda effect
     private final static Set<String> generatedClassNames = new HashSet<String>();
     static CodegenAccess.StaticCodegenTarget isDoingStaticCodegen = null;
 
